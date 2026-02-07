@@ -1,15 +1,8 @@
 cask "dgrid" do
   version "0.1.0"
+  sha256 "PENDING"
 
-  on_arm do
-    sha256 "REPLACE_WITH_ARM64_SHA256"
-    url "https://github.com/sschlesier/dgrid/releases/download/v#{version}/DGrid-#{version}-arm64.dmg"
-  end
-
-  on_intel do
-    sha256 "REPLACE_WITH_X64_SHA256"
-    url "https://github.com/sschlesier/dgrid/releases/download/v#{version}/DGrid-#{version}-x64.dmg"
-  end
+  url "https://github.com/sschlesier/dgrid/releases/download/v#{version}/DGrid-#{version}-arm64.dmg"
 
   name "DGrid"
   desc "Modern MongoDB GUI application"
