@@ -1,6 +1,6 @@
 cask "dgrid" do
-  version "0.7.0"
-  sha256 "cb3e7cddf22066aae98aaebd7a2652eee46f7fa2bce91d8af6022b4dd9b534ad"
+  version "1.0.0"
+  sha256 "a9b89adb2d57ec97705c82d8e97815defcad3e8ff403af4c9833dbdc595f496c"
 
   url "https://github.com/sschlesier/dgrid/releases/download/v#{version}/DGrid-#{version}-arm64.dmg"
 
